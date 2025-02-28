@@ -1,0 +1,393 @@
+=== Starting Assignment 2 Script ===
+Configuring network settings...
+Network already configured.
+Updating /etc/hosts...
+Hosts file already updated.
+Installing required packages...
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Fetched 257 kB in 4s (68.7 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apache2 is already the newest version (2.4.52-1ubuntu4.13).
+squid is already the newest version (5.9-0ubuntu0.22.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+apache2 and squid installed and running.
+User dennis already exists.
+Generating public/private rsa key pair.
+/home/dennis/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/dennis/.ssh/id_rsa
+Your public key has been saved in /home/dennis/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:2tVLGt4qCGLi8Oibo5ZQ7l+v3/5tOpFPjtaf/yLaV+E root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|                 |
+|  .        .   . |
+| o      S o o.. .|
+|+ + .  o o =o..E.|
+|+*.. .o.. o oB . |
+|.=+  ..... o=.B .|
+|=+o.. .ooo=++*.+*|
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/dennis/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/dennis/.ssh/id_ed25519
+Your public key has been saved in /home/dennis/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:MPrQL924KwWZEe4Rg1+xh4lg8VrRAbkdN9oaEf1c960 root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|    +o*=+=       |
+|   ..+o==++   . .|
+|     .OB+*.+ . .o|
+|     **++.. o   o|
+|    + o.So     . |
+|     o ooo    E  |
+|      o.+ .      |
+|      .. .       |
+|       .o.       |
++----[SHA256]-----+
+SSH keys configured for dennis.
+User aubrey already exists.
+Generating public/private rsa key pair.
+/home/aubrey/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/aubrey/.ssh/id_rsa
+Your public key has been saved in /home/aubrey/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:ncJq9QQbMxdH557akK2uOkMyvuVqe0ozt5mYtV58d8Y root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|          ..o .  |
+|           o o   |
+|        = .   .  |
+|       . O . + . |
+|        S + o +  |
+|      oo.=   = . |
+|     .*++ + + o E|
+|     ooX+* o . o |
+|     .BBO+...    |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/aubrey/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/aubrey/.ssh/id_ed25519
+Your public key has been saved in /home/aubrey/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:YD7GQisW7XnhZAdaXAP1gekbLTDkz8oCtN8YODEF9wg root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|  E.oo=++o.      |
+|   = *+.oo .     |
+|  = = O+...      |
+| . O X *+ .      |
+|  B * B S+       |
+| . = O o.        |
+|    + +          |
+|     .           |
+|                 |
++----[SHA256]-----+
+SSH keys configured for aubrey.
+User captain already exists.
+Generating public/private rsa key pair.
+/home/captain/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/captain/.ssh/id_rsa
+Your public key has been saved in /home/captain/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:kk1T5VgvrhYl8Hg/okeFZayvASWKtWC9RNXApP/4Q1c root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|     o.+=o.o=    |
+|    o +.o=oB..   |
+|   . =.++o*.= .  |
+|    . +=.o.* .E  |
+|      o S.+.+.   |
+|       . =o+o.   |
+|        o.=+     |
+|         +o      |
+|          ..     |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/captain/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/captain/.ssh/id_ed25519
+Your public key has been saved in /home/captain/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:PWgNSEolb4PnUhJqTlOxX35xTZewL+rLWitSTQkZXxA root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|    *oo  .oEooo o|
+|   + O . o. .o.o |
+|  = = B o o.o..  |
+| + . B + = =  .  |
+|  . . o S B  . . |
+|     . . o o. .  |
+|        .  o     |
+|       . .+ .    |
+|        ..o=.    |
++----[SHA256]-----+
+SSH keys configured for captain.
+User snibbles already exists.
+Generating public/private rsa key pair.
+/home/snibbles/.ssh/id_rsa already exists.
+Overwrite (y/n)? Generating public/private ed25519 key pair.
+/home/snibbles/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/snibbles/.ssh/id_ed25519
+Your public key has been saved in /home/snibbles/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:EwigBiAbif2sZybtTrsyKsPygjHkPVcL/LDBnLWVZI8 root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|Bo...   .o.      |
+|=+.  . o.oo      |
+|o. o+ + +E .     |
+|..  oO o .       |
+|o .o  B S        |
+|o.oo=o o .       |
+|oo *+            |
+|*.o...           |
+|+=.++.           |
++----[SHA256]-----+
+SSH keys configured for snibbles.
+User brownie already exists.
+Generating public/private rsa key pair.
+/home/brownie/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/brownie/.ssh/id_rsa
+Your public key has been saved in /home/brownie/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:lid/nt2/YU7SiLAQmqp3irjAW7KAp654mrFo76FPMYo root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|       .         |
+|      o ..       |
+|   o o .S..      |
+|+ . +  ..+o . o  |
+|E+.=     ....o = |
+|*B@...     o o=..|
+|#@==o       o .o=|
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/brownie/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/brownie/.ssh/id_ed25519
+Your public key has been saved in /home/brownie/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:kpD7shx/w35B8qOt44lFx3JmBJENjyEujxdLqXs2sro root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|      . ==       |
+|     o o.=.      |
+|    + = . o      |
+|     O +.o.      |
+|    + * S+*      |
+|     + o *+      |
+|    = =..o o     |
+|   . X +*.o      |
+|  Eo+ o+==       |
++----[SHA256]-----+
+SSH keys configured for brownie.
+User scooter already exists.
+Generating public/private rsa key pair.
+/home/scooter/.ssh/id_rsa already exists.
+Overwrite (y/n)? Generating public/private ed25519 key pair.
+/home/scooter/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/scooter/.ssh/id_ed25519
+Your public key has been saved in /home/scooter/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:eDtFrntCZJcVN0I0DZCyqLghD/yo3tMsIiZVRz48d+E root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|          .=B+o  |
+|      . . o .+.. |
+|     + . +.+     |
+|    . B.=oE      |
+|.  o o.*Soo      |
+|o.+ .  ..+       |
+| =ooo  .+        |
+|o+++ o  .o.      |
+|B...o   .o       |
++----[SHA256]-----+
+SSH keys configured for scooter.
+User sandy already exists.
+Generating public/private rsa key pair.
+/home/sandy/.ssh/id_rsa already exists.
+Overwrite (y/n)? Generating public/private ed25519 key pair.
+/home/sandy/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/sandy/.ssh/id_ed25519
+Your public key has been saved in /home/sandy/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:vraOZz0lqThak95ZuGe1ziphbHCEeIV+TZQ96Bm+zQE root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|     . +...+     |
+|    . + . E o    |
+|     o . = + .   |
+|      o o = .    |
+|       =S  = .   |
+|       o=.+ =    |
+|      ++o+.+ .   |
+|     oo+*==..    |
+|    ..o*B=.+o    |
++----[SHA256]-----+
+SSH keys configured for sandy.
+User perrier already exists.
+Generating public/private rsa key pair.
+/home/perrier/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/perrier/.ssh/id_rsa
+Your public key has been saved in /home/perrier/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:im5ieq21grXeKUKromFNPTVdFUYqUKca0XxEEc6dIjU root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|       o+.oE==.  |
+|        +oB.= .  |
+|       + =.= o   |
+|    . . + o .    |
+|   . o .S        |
+| .+  ...         |
+|o+.+o .          |
+|=oB+oo           |
+|B*o*=            |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/perrier/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/perrier/.ssh/id_ed25519
+Your public key has been saved in /home/perrier/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:LvhGvtg8n0/grk/wFmihMgkepQ5vHc3ZFxqqTUUrqEg root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|   .   .+ .      |
+|  o  + = + .     |
+|oE  o O + .      |
+|=+.+ * + .       |
+|.oB + = S        |
+| . o o.= o       |
+|    .o. * .      |
+|     =+= o       |
+|    ..**=..      |
++----[SHA256]-----+
+SSH keys configured for perrier.
+User cindy already exists.
+Generating public/private rsa key pair.
+/home/cindy/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/cindy/.ssh/id_rsa
+Your public key has been saved in /home/cindy/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:lsNfyLKDs7MZ8imEyw3HanTbV+hK+k8Yvb/9yz9HBJc root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|                .|
+|              .E.|
+|               o |
+|       o o .    .|
+|   o  . S.o .  . |
+|  + =  =.*..    .|
+| o O.o*.=..    . |
+|  = +=oBoo . . ..|
+| .  .oO*. o...+o+|
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/cindy/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/cindy/.ssh/id_ed25519
+Your public key has been saved in /home/cindy/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:iLLlcIb9HulhUYiaYHNZZ7bXqtjVwlpmsvbxmumUkuE root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|     . +         |
+|    o.+.. .      |
+|.o o. .... .     |
+|..o= . oo o      |
+|  * * ooSO .     |
+|   O .+o% o      |
+|  . ..*E +       |
+|     +.o+ =      |
+|      o .*..     |
++----[SHA256]-----+
+SSH keys configured for cindy.
+User tiger already exists.
+Generating public/private rsa key pair.
+/home/tiger/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/tiger/.ssh/id_rsa
+Your public key has been saved in /home/tiger/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:uSbVwSaYPAXIX82Jwshxea+NaK0A7DPUr0OS1HClzdM root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|   o.*+o.+ .     |
+|  . **+=+.+      |
+| . =..O+E.+      |
+|  = o .o =..     |
+| + o . oS+.      |
+|  * o +.+..      |
+|   = +..o        |
+|    o .o         |
+|     .           |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/tiger/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/tiger/.ssh/id_ed25519
+Your public key has been saved in /home/tiger/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:i9ffE0ZcDFUN1GfDRkffejU2mrvf7Pdu+u05cM04Avs root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|             .*OB|
+|               +@|
+|             ..**|
+|          .   *.+|
+|        S  o +.oo|
+|       . o. ..*oo|
+|      . o .. +oo |
+|       .   .E.oo*|
+|            ..+@&|
++----[SHA256]-----+
+SSH keys configured for tiger.
+User yoda already exists.
+Generating public/private rsa key pair.
+/home/yoda/.ssh/id_rsa already exists.
+Overwrite (y/n)? Your identification has been saved in /home/yoda/.ssh/id_rsa
+Your public key has been saved in /home/yoda/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:JU70B6bVIgzcaSOH8xmUbCcR6cWCtVxMJj9nFzhbhhE root@server1
+The key's randomart image is:
++---[RSA 3072]----+
+|     ..XBXB.E=.  |
+|      *o^@*.= o. |
+|       O*X=.+=.  |
+|       o+o =..   |
+|        S        |
+|                 |
+|                 |
+|                 |
+|                 |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+/home/yoda/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? Your identification has been saved in /home/yoda/.ssh/id_ed25519
+Your public key has been saved in /home/yoda/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:uNQCaShTufVo6jI9kwvm/43LvnKKk5fMmhjFqKITjRk root@server1
+The key's randomart image is:
++--[ED25519 256]--+
+|  ..             |
+| .....           |
+|o .o+o           |
+|E=..o..o         |
+|.=oo  + S        |
+|=.o  . o         |
+|==+.. .          |
+|X=O*..o          |
+|oO***Bo.         |
++----[SHA256]-----+
+SSH keys configured for yoda.
+Dennis granted sudo access.
+=== Assignment 2 Script Completed Successfully ===
